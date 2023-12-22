@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassiano Costa - Personal Trainer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Cassiano Costa - Personal Trainer</h1>
+            <button class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#como-funciona" class="nav-link ">
+                            <i class="bi bi-card-text me-1"></i>
+                            Como Funciona</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#resultados" class="nav-link ">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Resultados</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#perguntas" class="nav-link ">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Perguntas Frequentes</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#planos" class="nav-link ">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Planos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#loja" class="nav-link ">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Loja</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="como-funciona">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/logo/logo-actraining.jpeg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Como <span class="text-colored">Funciona</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quaerat laboriosam cum illum odio earum eaque deserunt eligendi nobis rem ut magni ratione, vitae sunt maxime accusamus in. Amet, accusantium!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a Acessoria</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore deleniti eius cum, dolore reiciendis iste, vel aliquam sint consequuntur qui accusantium magni ipsum atque. Odit perspiciatis est eligendi inventore!
+                            </p>
+                            <ul>
+                                <li>Treino</li>
+                                <li>Dieta</li>
+                                <li>Acompanhamento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="resultados" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Resultados <span class="text-colored">Incriveis</span></h2>
+                </div>
+                <div class="carousel slide text-center" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-50" src="./images/resultados/resultado1.jpeg" alt="Resultado 1">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-50" src="./images/resultados/resultado2.jpeg" alt="Duas taças de vinho">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-50" src="./images/resultados/resultado3.jpeg" alt="Uma mesa com comida">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+        </section>
+        <section id="perguntas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Perguntas <span class="text-colored">Frequentes</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-6">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quando-recebo-treino" class=" fw-bold text-start nav-link text-colored active">Em quanto tempo recebo meu treino?</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#como-acessar-app" class=" fw-bold text-start nav-link text-colored">Como tenho acesso ao aplicativo de treino?</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#troca-treinos" class=" fw-bold text-start nav-link text-colored">O treino é trocado mensalmente?</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-6">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="quando-recebo-treino">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>
+                                            Após a confirmação do pagamento damos o prazo de até 7 dias para entrega.
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="tab-pane" id="como-acessar-app">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>
+                                            Após o primeiro contato enviamos via e-mail ou whatsapp um link para baixar o aplicativo.
+                                        </p>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="tab-pane" id="troca-treinos">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>
+                                            Damos essa opção, mas indicamos pelo menos 2 meses com o mesmo treino para se criar as adaptações necessárias(neural, ligamentar, articular e muscular) e obtermos progressão de carga.
+                                        </p>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="planos" class="pt-5 pb-5"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Planos</span></h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="row text-center">
+                            <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body bg-dark">
+                                <h5 class="card-title text-light">Special title treatment</h5>
+                                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-danger">Go somewhere</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body bg-dark">
+                                <h5 class="card-title text-light">Special title treatment</h5>
+                                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-danger">Go somewhere</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body bg-dark">
+                                    <h5 class="card-title text-light">Special title treatment</h5>
+                                    <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-danger">Go somewhere</a>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="loja">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossa <span class="text-colored">Loja</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-4 pb-5">
+                        <article class="card text-center">
+                            <header class="card-header">
+                                Whey Protein
+                            </header>
+                            <img src="http://via.placeholder.com/100x100"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Whey protein integral</h4>
+                                <p class="card-text">Proteina concentrada do soro do leite</p>
+                                <a href="#" class="btn btn-success">Compre</a>
+                            </div>
+                    </div>
+                    <div class="col-4 pb-5">
+                        <article class="card text-center">
+                            <header class="card-header">
+                                Whey Protein
+                            </header>
+                            <img src="http://via.placeholder.com/100x100"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Whey protein integral</h4>
+                                <p class="card-text">Proteina concentrada do soro do leite</p>
+                                <a href="#" class="btn btn-success">Compre</a>
+                            </div>
+                    </div>
+                    <div class="col-4 pb-5">
+                        <article class="card text-center">
+                            <header class="card-header">
+                                Whey Protein
+                            </header>
+                            <img src="http://via.placeholder.com/100x100"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Whey protein integral</h4>
+                                <p class="card-text">Proteina concentrada do soro do leite</p>
+                                <a href="#" class="btn btn-success">Compre</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container bg-dark text-light">
+            <p>&copy; Cassiano Costa Personal - Todos os direitos reservados - 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
